@@ -41,8 +41,18 @@ Dann http://127.0.0.1:8000/YOLO_Training/ öffnen. Bei jedem Push auf `main` wir
 Die optionale Gruppe `ml` (`uv sync --group ml`) enthält Ultralytics und ONNX – nur nötig, um Beispielbilder
 oder das Browser-Modell neu zu erzeugen.
 
-## Lizenzhinweise
+## Lizenz
 
-Ultralytics-Software, -Modelle (YOLO26n, auch als ONNX-Export) und die Beispielbilder `bus.jpg`/`zidane.jpg`
-stammen von [Ultralytics](https://github.com/ultralytics/ultralytics) und stehen unter der
+| Teil | Lizenz |
+|---|---|
+| **Code**: Notebooks (`notebooks/`, `projekt-vorlage/`), `werkzeuge.py`, JavaScript in `docs/assets/js/`, Hooks, Workflow sowie das Modell `docs/assets/models/yolo26n.onnx` | [GNU AGPL-3.0](LICENSE) |
+| **Texte und eigene Grafiken** der Lernseite (`docs/`, sofern nicht anders gekennzeichnet) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de) |
+
+Du darfst das Material nutzen, verändern und weitergeben. Bedingungen: Nenne die Quelle
+(„YOLO Training – Bilder-KI verstehen und trainieren, https://rdf-sul.github.io/YOLO_Training/“) und gib Veränderungen
+unter derselben Lizenz weiter.
+
+**Fremdmaterial:** Ultralytics-Software, -Modelle (YOLO26n, auch als ONNX-Export) und die Beispielbilder
+`bus.jpg`/`zidane.jpg` stammen von [Ultralytics](https://github.com/ultralytics/ultralytics) und stehen unter der
 [AGPL-3.0](https://www.ultralytics.com/license). Grafiken aus der Ultralytics-Dokumentation werden nur verlinkt.
+Die Screenshots zeigen die Oberfläche von [Label Studio](https://labelstud.io/) (HumanSignal, Apache-2.0).

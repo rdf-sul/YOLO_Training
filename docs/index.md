@@ -43,3 +43,9 @@ Es wird in der Industrie z. B. für Qualitätsprüfung, Zählen von Bauteilen un
     Sie orientiert sich am Aufbau der offiziellen [Ultralytics-Dokumentation](https://docs.ultralytics.com/de/), ist aber
     didaktisch reduziert. Grafiken und Beispiel-Datensätze von Ultralytics werden mit Quellenangabe verlinkt.
     Ultralytics-Software und -Modelle stehen unter der Lizenz [AGPL-3.0](https://www.ultralytics.com/license).
+
+    **Lizenz dieses Materials:** Texte und eigene Grafiken stehen unter
+    [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), der Code (Notebooks, Projektvorlage,
+    JavaScript) und das Browser-Modell unter der [AGPL-3.0](https://github.com/rdf-sul/YOLO_Training/blob/main/LICENSE).
+    Du darfst alles nutzen, verändern und weitergeben, wenn du die Quelle nennst und Veränderungen unter derselben
+    Lizenz teilst.

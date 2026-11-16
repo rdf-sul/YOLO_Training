@@ -32,4 +32,4 @@ Die Ordner legt P1 beim ersten Start an:
 
 `werkzeuge.py` enthält die Hilfsfunktionen für P1 und P2.
 
-Lizenz-Hinweis: Ultralytics YOLO steht unter der AGPL-3.0.
+Lizenz: Diese Vorlage steht unter der [GNU AGPL-3.0](https://github.com/rdf-sul/YOLO_Training/blob/main/LICENSE), wie Ultralytics YOLO selbst.
