@@ -49,6 +49,8 @@ nav:
   - Start:
       - index.md
       - Lernpfad & Zeitplan: lernpfad.md
+      - Software einrichten: software-einrichten.md
+      - Für Lehrkräfte: lehrkraefte.md
   - 1 · Grundlagen:
       - grundlagen/index.md
       - Live-Demo im Browser: grundlagen/live-demo.md

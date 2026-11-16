@@ -38,6 +38,8 @@ Es wird in der Industrie z. B. für Qualitätsprüfung, Zählen von Bauteilen un
     - ein Google-Konto für **Google Colab**
     - für den lokalen Teil: [**uv**](grundlagen/installation-uv.md) (Python-Paketmanager, Installation dauert 1 Minute)
 
+    Schritt für Schritt: **[Software einrichten](software-einrichten.md)**, für Lehrkräfte: **[Leitfaden](lehrkraefte.md)**.
+
 ??? note "Über diese Seite"
     Diese Seite ist Unterrichtsmaterial für angehende Elektrotechniker:innen.
     Sie orientiert sich am Aufbau der offiziellen [Ultralytics-Dokumentation](https://docs.ultralytics.com/de/), ist aber
