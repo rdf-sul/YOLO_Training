@@ -100,3 +100,10 @@
 /* Live-Demo */
 .live-status { font-size: .75rem; margin-left: .3rem; }
 .live-leiste { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+
+/* ---------- Reiter oben auch auf kleineren Laptops zeigen ----------
+   Material blendet die Reiter unter 1220 px aus. Ab 960 px bleiben sie sichtbar. */
+@media screen and (min-width: 60em) and (max-width: 76.2344em) {
+  .md-tabs { display: block; }
+  .md-tabs__item { padding-left: .5rem; padding-right: .5rem; }
+}

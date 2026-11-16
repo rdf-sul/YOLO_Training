@@ -121,8 +121,8 @@ Grafikkarte (GPU). Dort musst du nichts installieren. Es gibt zwei Colab-Noteboo
 
 | Notebook | Wann | Öffnen |
 |---|---|---|
-| **Erstes Training** (African Wildlife) | Einheit 4 | [:material-google-colab: In Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/notebooks/01_erstes_training.ipynb){ .md-button } |
-| **P3 · Training** (dein Projekt) | Einheit 5 | [:material-google-colab: In Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/projekt-vorlage/P3_training_colab.ipynb){ .md-button } |
+| **Erstes Training** (African Wildlife) | Einheit 4 | [:simple-googlecolab: In Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/notebooks/01_erstes_training.ipynb){ .md-button } |
+| **P3 · Training** (dein Projekt) | Einheit 5 | [:simple-googlecolab: In Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/projekt-vorlage/P3_training_colab.ipynb){ .md-button } |
 
 ### So startest du ein Colab-Notebook
 

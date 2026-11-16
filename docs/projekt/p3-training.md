@@ -4,7 +4,7 @@
 
 Die nummerierten Überschriften auf dieser Seite tragen dieselben Nummern wie die Abschnitte im Notebook.
 
-[:material-google-colab: P3 in Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/projekt-vorlage/P3_training_colab.ipynb){ .md-button .md-button--primary }
+[:simple-googlecolab: P3 in Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/projekt-vorlage/P3_training_colab.ipynb){ .md-button .md-button--primary }
 
 ## Vorbereitung
 

@@ -30,7 +30,7 @@ Es wird in der Industrie z. B. für Qualitätsprüfung, Zählen von Bauteilen un
 |---|---|
 | 🧪 **Experiment** | Interaktive Elemente direkt auf der Seite. Probier aus, verschiebe Regler, beobachte! |
 | ❓ **Kurz-Check** | Kleine Quizze am Ende der Seiten. Ergebnisse werden nicht gespeichert – sie sind nur für dich. |
-| :material-google-colab: **Colab** | Aufgaben, die du im Jupyter Notebook in Google Colab ausführst (kostenlose GPU). |
+| :simple-googlecolab: **Colab** | Aufgaben, die du im Jupyter Notebook in Google Colab ausführst (kostenlose GPU). |
 | :material-chevron-down-box-outline: **Vertiefung** | Aufklappbare Kästen mit Zusatzwissen. Für den Kurs nicht nötig – aber spannend. |
 
 !!! info "Was du brauchst"

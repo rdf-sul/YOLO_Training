@@ -22,7 +22,7 @@ Du brauchst nur ein Google-Konto.
 
 ## Los geht's
 
-[:material-google-colab: Notebook in Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/notebooks/01_erstes_training.ipynb){ .md-button .md-button--primary }
+[:simple-googlecolab: Notebook in Colab öffnen](https://colab.research.google.com/github/rdf-sul/YOLO_Training/blob/main/notebooks/01_erstes_training.ipynb){ .md-button .md-button--primary }
 [:material-github: Notebook auf GitHub ansehen](https://github.com/rdf-sul/YOLO_Training/blob/main/notebooks/01_erstes_training.ipynb){ .md-button }
 
 ### Schritt für Schritt
