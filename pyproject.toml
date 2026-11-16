@@ -1,0 +1,15 @@
+[project]
+name = "yolo-training"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.8.1",
+]
+
+[dependency-groups]
+ml = [
+    "onnx>=1.23.2",
+    "onnxruntime>=1.32.0",
+    "onnxslim>=0.1.99",
+    "ultralytics>=8.4.212",
+]

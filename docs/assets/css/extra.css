@@ -1,0 +1,102 @@
+/* ---------- Grundfarben für Experimente & Quiz ----------
+   Auf [data-md-color-scheme] (body) definiert, damit die Material-Variablen
+   des hellen bzw. dunklen Schemas korrekt aufgelöst werden. */
+[data-md-color-scheme] {
+  --exp-gt: #16a34a;        /* Ground Truth (Label) */
+  --exp-pred: #f59e0b;      /* Vorhersage */
+  --exp-inter: rgba(99, 102, 241, .45);
+  --exp-ok: #16a34a;
+  --exp-bad: #dc2626;
+  --exp-bg: var(--md-code-bg-color);
+  --exp-border: var(--md-default-fg-color--lightest);
+}
+
+/* ---------- Startseite: Kacheln ---------- */
+.kacheln {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .8rem;
+  margin: 1rem 0 1.5rem;
+}
+.kacheln a.kachel {
+  display: block;
+  padding: .9rem 1rem;
+  border: 1px solid var(--exp-border);
+  border-radius: .5rem;
+  color: var(--md-default-fg-color);
+  transition: border-color .15s, transform .15s;
+}
+.kacheln a.kachel:hover { border-color: var(--md-accent-fg-color); transform: translateY(-2px); }
+.kachel .nr { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--md-default-fg-color--light); }
+.kachel strong { display: block; font-size: .95rem; margin: .15rem 0 .3rem; }
+.kachel span.txt { font-size: .75rem; color: var(--md-default-fg-color--light); }
+
+/* ---------- Experiment-Container ---------- */
+.exp {
+  border: 1px solid var(--exp-border);
+  border-left: 4px solid var(--md-accent-fg-color);
+  border-radius: .4rem;
+  padding: .8rem 1rem 1rem;
+  margin: 1.2rem 0;
+  background: var(--exp-bg);
+}
+.exp-titel { font-weight: 700; margin-bottom: .5rem; display: flex; gap: .4rem; align-items: center; }
+.exp-titel::before { content: "🧪"; }
+.exp canvas { max-width: 100%; height: auto; border-radius: .3rem; display: block; touch-action: none; }
+.exp .regler { display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; align-items: center; margin: .6rem 0; font-size: .78rem; }
+.exp .regler label { display: flex; gap: .4rem; align-items: center; }
+.exp input[type=range] { width: 160px; accent-color: var(--md-accent-fg-color); }
+.exp button, .quiz button {
+  font: inherit; font-size: .75rem; cursor: pointer;
+  padding: .3rem .7rem; border-radius: .3rem;
+  border: 1px solid var(--md-primary-fg-color);
+  background: var(--md-primary-fg-color); color: var(--md-primary-bg-color);
+}
+.exp button.sek { background: transparent; color: var(--md-primary-fg-color); }
+.exp button:disabled { opacity: .5; cursor: default; }
+.exp .werte { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: .5rem; margin-top: .6rem; }
+.exp .wert { background: var(--md-default-bg-color); border: 1px solid var(--exp-border); border-radius: .3rem; padding: .35rem .5rem; text-align: center; }
+.exp .wert b { display: block; font-size: 1.1rem; font-variant-numeric: tabular-nums; }
+.exp .wert small { font-size: .65rem; color: var(--md-default-fg-color--light); }
+.exp .ausgabe { font-family: var(--md-code-font-family); font-size: .8rem; background: var(--md-default-bg-color); padding: .4rem .6rem; border-radius: .3rem; margin-top: .5rem; overflow-x: auto; white-space: pre-wrap; word-break: break-word; }
+.exp .hinweis { font-size: .75rem; color: var(--md-default-fg-color--light); margin-top: .4rem; }
+.exp .ok { color: var(--exp-ok); font-weight: 700; }
+.exp .bad { color: var(--exp-bad); font-weight: 700; }
+.exp .zweispaltig { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 1rem; align-items: start; }
+@media (max-width: 760px) { .exp .zweispaltig { grid-template-columns: 1fr; } }
+.exp table.dets { font-size: .72rem; width: 100%; }
+.exp table.dets td, .exp table.dets th { padding: .15rem .4rem !important; }
+.exp tr.aus { opacity: .35; }
+
+/* ---------- Quiz ---------- */
+.quiz {
+  border: 1px solid var(--exp-border);
+  border-left: 4px solid var(--md-primary-fg-color);
+  border-radius: .4rem;
+  padding: .8rem 1rem;
+  margin: 1.2rem 0;
+}
+.quiz-kopf { font-weight: 700; margin-bottom: .4rem; }
+.quiz-kopf::before { content: "❓ "; }
+.quiz-frage { margin: .9rem 0 .3rem; font-weight: 600; font-size: .82rem; }
+.quiz-optionen { display: grid; gap: .3rem; }
+.quiz-optionen label {
+  display: flex; gap: .5rem; align-items: flex-start; cursor: pointer;
+  padding: .3rem .5rem; border-radius: .3rem; border: 1px solid var(--exp-border); font-size: .78rem;
+}
+.quiz-optionen label:hover { border-color: var(--md-primary-fg-color); }
+.quiz-optionen label.richtig { border-color: var(--exp-ok); background: rgba(22, 163, 74, .12); }
+.quiz-optionen label.falsch { border-color: var(--exp-bad); background: rgba(220, 38, 38, .10); }
+.quiz-erklaerung { font-size: .75rem; margin: .3rem 0 0 .2rem; color: var(--md-default-fg-color--light); display: none; }
+.quiz-erklaerung.sichtbar { display: block; }
+.quiz-fuss { display: flex; gap: .8rem; align-items: center; margin-top: .9rem; font-size: .8rem; }
+
+/* ---------- Bilder ---------- */
+.md-typeset img.rahmen { border: 1px solid var(--exp-border); border-radius: .3rem; }
+.md-typeset figure img { border-radius: .3rem; }
+.md-typeset .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.md-typeset .grid2 figure { margin: 0; }
+
+/* Live-Demo */
+.live-status { font-size: .75rem; margin-left: .3rem; }
+.live-leiste { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }

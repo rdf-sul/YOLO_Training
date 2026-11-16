@@ -1,0 +1,16 @@
+[project]
+name = "yolo-projekt"
+version = "1.0.0"
+description = "Eigenes YOLO-Projekt: Bilder sammeln, labeln, trainieren"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "ultralytics==8.4.214",
+    "jupyterlab>=4.2",
+    "ipywidgets>=8.1",
+    "pandas>=2.2",
+    "pyyaml>=6.0",
+    "pillow-heif>=0.18",
+]
+
+[tool.uv]
+package = false

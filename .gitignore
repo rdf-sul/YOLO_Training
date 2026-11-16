@@ -1,0 +1,23 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# MkDocs Build
+site/
+
+# YOLO-Artefakte (nicht ins Repo – zu groß)
+*.pt
+runs/
+datasets/
+*.zip
+
+# Ausnahme: Browser-Modell für die Live-Demo
+!docs/assets/models/*.onnx
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
